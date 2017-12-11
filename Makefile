@@ -4,7 +4,7 @@ include ./Makefile.include
 
 # OCaml variables
 OCAMLOPT := $(OCAMLOPT) -w -8-20-26-28-10
-OCAML_INCLUDES=-I ../code/lib/ml ../code/lib/ml/hacllib.cmxa
+OCAML_INCLUDES=
 
 all:
 	$(MAKE)	test.exe
